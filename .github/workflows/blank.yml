@@ -30,5 +30,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo ${{github.event_name}}
+          echo ${{github.ref}}
           echo "REVISION: $REVISION"
           echo "env.REVISION: ${{env.REVISION}}"
