@@ -32,3 +32,4 @@ jobs:
           echo ${{github.ref}}
           echo "REVISION: $REVISION"
           echo "env.REVISION: ${{env.REVISION}}"
+          echo "${{github.workspace}}"
